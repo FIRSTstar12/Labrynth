@@ -11,7 +11,14 @@ class enemy():
     self.attack = attack
     self.deffense = defense
 class tools():
-  def __init__(self, type = "", use = "", damage = 0):
+  def __init__(self, type = "", use = "", name = "", damage = 0):
     self.type = type
     self.use = use
     self.damage = damage
+    self.name = name
+class food():
+  def __init__(self, poison = False, name = "", heal = 0):
+    self.poison = poison
+    self.name = name
+    self.heal = heal
+
